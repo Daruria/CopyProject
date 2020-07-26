@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{c3423268-1860-4c10-bfdd-dc97dbaee912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ToolDocument">
+      <UniqueIdentifier>{af5fafd0-cce8-4d47-a472-8a50c1584243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.FrameWnd">
+      <UniqueIdentifier>{90e4908b-8e45-49f9-b2a1-780318ebf44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{8ae1fd81-5a13-4091-abad-c47235f405fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{db32b635-104e-44b6-859a-8790cea7dd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.FormView">
+      <UniqueIdentifier>{970d3573-bb8f-40b4-aeb6-afc2f053371f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{29069c96-7f61-4b17-b199-e2abf892371c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.NaviTool">
+      <UniqueIdentifier>{7fd1ad39-baca-443e-865d-eee91b17d27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Camera">
+      <UniqueIdentifier>{18e76cc8-6091-4291-9749-32a1a83f3217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.ToolScene">
+      <UniqueIdentifier>{2c5757ca-a5fe-41e0-96f4-90869f113be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject">
+      <UniqueIdentifier>{040ac04a-184a-414a-a37a-7a5c90a9f221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\00.OriginGrid">
+      <UniqueIdentifier>{5299af64-9bfb-4a6f-bc71-5b345f1bf798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.ObjectTool">
+      <UniqueIdentifier>{95018bc8-daf2-4d9a-b7a4-005feb63bb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Navigation">
+      <UniqueIdentifier>{120d3e55-0354-4d75-88f0-b1e7e8db78c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Navigation\00.Tri">
+      <UniqueIdentifier>{e21bae44-46b9-4b99-9beb-ce299ca34bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\01.AxisLines">
+      <UniqueIdentifier>{d18f9373-98ec-4fb4-8f97-70f3dd355ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.ColliderTool">
+      <UniqueIdentifier>{5416795c-ad52-4c2e-9ed6-ea5d40c3dc11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.ToolDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>03.View\00.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviTool.h">
+      <Filter>04.Dialog\00.NaviTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicCamera.h">
+      <Filter>05.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolScene.h">
+      <Filter>06.ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\OriginGrid.h">
+      <Filter>07.GameObject\00.OriginGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTool.h">
+      <Filter>04.Dialog\01.ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Navigation.h">
+      <Filter>08.Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Navigation_Tri.h">
+      <Filter>08.Navigation\00.Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\AxisLines.h">
+      <Filter>07.GameObject\01.AxisLines</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderTool.h">
+      <Filter>04.Dialog\02.ColliderTool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.ToolDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>03.View\00.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviTool.cpp">
+      <Filter>04.Dialog\00.NaviTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>05.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolScene.cpp">
+      <Filter>06.ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OriginGrid.cpp">
+      <Filter>07.GameObject\00.OriginGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTool.cpp">
+      <Filter>04.Dialog\01.ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Navigation.cpp">
+      <Filter>08.Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Navigation_Tri.cpp">
+      <Filter>08.Navigation\00.Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AxisLines.cpp">
+      <Filter>07.GameObject\01.AxisLines</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderTool.cpp">
+      <Filter>04.Dialog\02.ColliderTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

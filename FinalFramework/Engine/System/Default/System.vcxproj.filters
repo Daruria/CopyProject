@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.GraphicDev">
+      <UniqueIdentifier>{5ed60949-a83d-4acc-bade-eaa8ce4d5b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Timer">
+      <UniqueIdentifier>{60f0e47a-f65d-47c3-a04d-76ea7d3f8550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Frame">
+      <UniqueIdentifier>{d2c7f844-036a-46f2-b249-0ed1d12c265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.DInput">
+      <UniqueIdentifier>{f8ae67b6-54b5-4370-a71a-5a2c0d6ca73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.DFont">
+      <UniqueIdentifier>{1c3a4660-5cd4-4f26-b1cc-dffe911fe71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{7c310a54-edcd-4e69-a9f2-0818429b0658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Timer\Manager">
+      <UniqueIdentifier>{c330c67a-e268-4a30-b04c-b4fe3e08b9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Frame\Manager">
+      <UniqueIdentifier>{f77dae6f-2d09-418b-b3d8-f1d2c244909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.DFont\Manager">
+      <UniqueIdentifier>{db3230b1-f3e6-4f9b-8357-0747310711fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.SoundMgr">
+      <UniqueIdentifier>{51ee2847-e30a-46f1-8c55-07563f035d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.VideoPlayer">
+      <UniqueIdentifier>{3e0b96aa-0798-4d9e-a4fe-8b54979bc4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.VideoPlayer\Bandi">
+      <UniqueIdentifier>{48beb13f-0550-4968-a574-91fa80d2de5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\GraphicDev.cpp">
+      <Filter>00.GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InputDev.cpp">
+      <Filter>04.DInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Timer.cpp">
+      <Filter>01.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimerMgr.cpp">
+      <Filter>01.Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frame.cpp">
+      <Filter>02.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FrameMgr.cpp">
+      <Filter>02.Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DFont.cpp">
+      <Filter>03.DFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DFontMgr.cpp">
+      <Filter>03.DFont\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>05.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VideoPlayer.cpp">
+      <Filter>06.VideoPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BandiVideoFileReader.cpp">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BandiVideoLibrary.cpp">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BandiVideoSound_NULL.cpp">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BandiVideoTexture_DX9.cpp">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\GraphicDev.h">
+      <Filter>00.GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InputDev.h">
+      <Filter>04.DInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Timer.h">
+      <Filter>01.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimerMgr.h">
+      <Filter>01.Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frame.h">
+      <Filter>02.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FrameMgr.h">
+      <Filter>02.Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Export_System.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DFont.h">
+      <Filter>03.DFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DFontMgr.h">
+      <Filter>03.DFont\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>05.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\VideoPlayer.h">
+      <Filter>06.VideoPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandiVideoFileReader.h">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandiVideoLibrary.h">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandiVideoSound_NULL.h">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandiVideoTexture.h">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BandiVideoTexture_DX9.h">
+      <Filter>06.VideoPlayer\Bandi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Header\Export_System.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>
