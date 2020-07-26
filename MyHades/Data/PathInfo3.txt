@@ -1,0 +1,167 @@
+Fx|Backstab|16|..\Texture\Fx\Backstab\Backstab (%d).png
+Fx|BloodImpactA|17|..\Texture\Fx\BloodImpactA\BloodImpactA (%d).png
+Fx|BloodImpactB|15|..\Texture\Fx\BloodImpactB\BloodImpactB (%d).png
+Fx|BloodImpactC|17|..\Texture\Fx\BloodImpactC\BloodImpactC (%d).png
+Fx|EnemyLaser|20|..\Texture\Fx\EnemyLaser\EnemyLaser (%d).png
+Fx|EnemyLaserPreview|30|..\Texture\Fx\EnemyLaserPreview\EnemyLaserPreview (%d).png
+Fx|EnemySummonBackFlame|18|..\Texture\Fx\EnemySummonBackFlame\EnemySummonBackFlame (%d).png
+Fx|EnemySummonRune|30|..\Texture\Fx\EnemySummonRune\EnemySummonRune (%d).png
+Fx|EnemySummonSmokeBack|17|..\Texture\Fx\EnemySummonSmokeBack\EnemySummonSmokeBack (%d).png
+Fx|EnemySummonSmokeFront|23|..\Texture\Fx\EnemySummonSmokeFront\EnemySummonSmokeFront (%d).png
+Fx|HitSparkA|11|..\Texture\Fx\HitSparkA\HitSparkA (%d).png
+Fx|HitSparkArmorA|23|..\Texture\Fx\HitSparkArmorA\HitSparkArmorA (%d).png
+Fx|HitSparkArmorB|23|..\Texture\Fx\HitSparkArmorB\HitSparkArmorB (%d).png
+Fx|HitSparkB|13|..\Texture\Fx\HitSparkB\HitSparkB (%d).png
+Fx|HitSparkC|12|..\Texture\Fx\HitSparkC\HitSparkC (%d).png
+Fx|HitSparkD1|23|..\Texture\Fx\HitSparkD1\HitSparkD1 (%d).png
+Fx|HitSparkD2|26|..\Texture\Fx\HitSparkD2\HitSparkD2 (%d).png
+Fx|HitSparkD3|27|..\Texture\Fx\HitSparkD3\HitSparkD3 (%d).png
+Fx|HitSparkVulnerability|14|..\Texture\Fx\HitSparkVulnerability\HitSparkVulnerability (%d).png
+Fx|LightningBall|30|..\Texture\Fx\LightningBall\LightningBall (%d).png
+Fx|MeteorTarget|32|..\Texture\Fx\MeteorTarget\MeteorTarget (%d).png
+Fx|MineExplosion|30|..\Texture\Fx\MineExplosion\MineExplosion (%d).png
+Fx|ProjectileFlare|30|..\Texture\Fx\ProjectileFlare\ProjectileFlare (%d).png
+Fx|RubbleFallStreak|8|..\Texture\Fx\RubbleFallStreak\RubbleFallStreak0001.png
+SingleTexture|ExplosionScorchDecal|1|..\Texture\Fx\SingleTexture\ExplosionScorchDecal\ExplosionScorchDecal.png
+Fx|SwordSwipeA|9|..\Texture\Fx\SwordSwipeA\SwordSwipeA (%d).png
+Fx|SwordSwipeB|10|..\Texture\Fx\SwordSwipeB\SwordSwipeB (%d).png
+Crystal|HeavyRanged_Crystal_04A_Move|30|..\Texture\GameObject\Crystal\HeavyRanged_Crystal_04A_Move\HeavyRanged_Crystal_04A_Move (%d).png
+Crystal|HeavyRanged_Crystal_04A_Shatter|17|..\Texture\GameObject\Crystal\HeavyRanged_Crystal_04A_Shatter\HeavyRanged_Crystal_04A_Shatter (%d).png
+Crystal|HeavyRanged_Crystal_04A_Shine|14|..\Texture\GameObject\Crystal\HeavyRanged_Crystal_04A_Shine\HeavyRanged_Crystal_04A_Shine (%d).png
+LightSpawner|DeathVFX|33|..\Texture\GameObject\LightSpawner\DeathVFX\LightSpawnerDeathVFX (%d).png
+LightSpawner|Idle|100|..\Texture\GameObject\LightSpawner\Idle\SpawnerIdle (%d).png
+SingleTexture|BloodMineBase|1|..\Texture\GameObject\SingleTexture\BloodMineBase\BloodMineBase.png
+SingleTexture|BloodMineLight|1|..\Texture\GameObject\SingleTexture\BloodMineLight\BloodMineLight.png
+WretchSwarmer|Alert|16|..\Texture\GameObject\WretchSwarmer\Alert\WretchSwarmerAlert (%d).png
+WretchSwarmer|Attack|48|..\Texture\GameObject\WretchSwarmer\Attack\WretchSwarmerAttack (%d).png
+WretchSwarmer|DeathVFX|30|..\Texture\GameObject\WretchSwarmer\DeathVFX\WretchSwarmerDeathVFX (%d).png
+WretchSwarmer|Idle|48|..\Texture\GameObject\WretchSwarmer\Idle\WretchSwarmerIdle (%d).png
+Zagreus|ZagreusDash|240|..\Texture\GameObject\Zagreus\ZagreusDash\ZagreusDash_Bink (%d).png
+Zagreus|ZagreusDashVFX|240|..\Texture\GameObject\Zagreus\ZagreusDashVFX\ZagreusDashVFX_Bink (%d).png
+Zagreus|ZagreusIdle|480|..\Texture\GameObject\Zagreus\ZagreusIdle\ZagreusIdle_Bink (%d).png
+Zagreus|ZagreusRun|128|..\Texture\GameObject\Zagreus\ZagreusRun\ZagreusRun_Bink (%d).png
+Zagreus|ZagreusSword|816|..\Texture\GameObject\Zagreus\ZagreusSword\ZagreusSword_Bink (%d).png
+Zagreus|ZagreusSwordDashAttack|168|..\Texture\GameObject\Zagreus\ZagreusSwordDashAttack\ZagreusSwordDashAttack_Bink (%d).png
+Zagreus|ZagreusSwordParry|496|..\Texture\GameObject\Zagreus\ZagreusSwordParry\ZagreusSwordParry_Bink (%d).png
+Zagreus|ZagreusSwordReturnToIdle|640|..\Texture\GameObject\Zagreus\ZagreusSwordReturnToIdle\ZagreusSwordReturnToIdle_Bink (%d).png
+SingleTexture|CursorAttack|1|..\Texture\GUI\Cursor\SingleTexture\CursorAttack\CursorAttack.png
+SingleTexture|CursorAttackPress|1|..\Texture\GUI\Cursor\SingleTexture\CursorAttackPress\CursorAttackPress.png
+SingleTexture|CursorDefault|1|..\Texture\GUI\Cursor\SingleTexture\CursorDefault\CursorDefault.png
+SingleTexture|CursorDefaultPress|1|..\Texture\GUI\Cursor\SingleTexture\CursorDefaultPress\CursorDefaultPress.png
+SingleTexture|CursorFreeAim|1|..\Texture\GUI\Cursor\SingleTexture\CursorFreeAim\CursorFreeAim.png
+SingleTexture|CursorInteract|1|..\Texture\GUI\Cursor\SingleTexture\CursorInteract\CursorInteract.png
+SingleTexture|CursorMove|1|..\Texture\GUI\Cursor\SingleTexture\CursorMove\CursorMove.png
+SingleTexture|CursorOutOfRange|1|..\Texture\GUI\Cursor\SingleTexture\CursorOutOfRange\CursorOutOfRange.png
+SingleTexture|CursorRally|1|..\Texture\GUI\Cursor\SingleTexture\CursorRally\CursorRally.png
+EndButton|Off|1|..\Texture\GUI\EndButton\Off\EndBtn (%d).png
+EndButton|On|1|..\Texture\GUI\EndButton\On\EndBtn (%d).png
+SingleTexture|BigFont!|1|..\Texture\GUI\Font\SingleTexture\BigFont!\Font_!.png
+SingleTexture|BigFont#|1|..\Texture\GUI\Font\SingleTexture\BigFont#\Font_#.png
+SingleTexture|BigFont$|1|..\Texture\GUI\Font\SingleTexture\BigFont$\Font_$.png
+SingleTexture|BigFont%|1|..\Texture\GUI\Font\SingleTexture\BigFont%\Font_%.png
+SingleTexture|BigFont&|1|..\Texture\GUI\Font\SingleTexture\BigFont&\Font_&.png
+SingleTexture|BigFont(|1|..\Texture\GUI\Font\SingleTexture\BigFont(\Font_(.png
+SingleTexture|BigFont)|1|..\Texture\GUI\Font\SingleTexture\BigFont)\Font_).png
+SingleTexture|BigFont0|1|..\Texture\GUI\Font\SingleTexture\BigFont0\Font_0.png
+SingleTexture|BigFont1|1|..\Texture\GUI\Font\SingleTexture\BigFont1\Font_1.png
+SingleTexture|BigFont2|1|..\Texture\GUI\Font\SingleTexture\BigFont2\Font_2.png
+SingleTexture|BigFont3|1|..\Texture\GUI\Font\SingleTexture\BigFont3\Font_3.png
+SingleTexture|BigFont4|1|..\Texture\GUI\Font\SingleTexture\BigFont4\Font_4.png
+SingleTexture|BigFont5|1|..\Texture\GUI\Font\SingleTexture\BigFont5\Font_5.png
+SingleTexture|BigFont6|1|..\Texture\GUI\Font\SingleTexture\BigFont6\Font_6.png
+SingleTexture|BigFont7|1|..\Texture\GUI\Font\SingleTexture\BigFont7\Font_7.png
+SingleTexture|BigFont8|1|..\Texture\GUI\Font\SingleTexture\BigFont8\Font_8.png
+SingleTexture|BigFont9|1|..\Texture\GUI\Font\SingleTexture\BigFont9\Font_9.png
+SingleTexture|BigFont@|1|..\Texture\GUI\Font\SingleTexture\BigFont@\Font_@.png
+SingleTexture|BigFontBigA|1|..\Texture\GUI\Font\SingleTexture\BigFontBigA\FontA.png
+SingleTexture|BigFontBigB|1|..\Texture\GUI\Font\SingleTexture\BigFontBigB\FontB.png
+SingleTexture|BigFontBigC|1|..\Texture\GUI\Font\SingleTexture\BigFontBigC\FontC.png
+SingleTexture|BigFontBigD|1|..\Texture\GUI\Font\SingleTexture\BigFontBigD\FontD.png
+SingleTexture|BigFontBigE|1|..\Texture\GUI\Font\SingleTexture\BigFontBigE\FontE.png
+SingleTexture|BigFontBigF|1|..\Texture\GUI\Font\SingleTexture\BigFontBigF\FontF.png
+SingleTexture|BigFontBigG|1|..\Texture\GUI\Font\SingleTexture\BigFontBigG\FontG.png
+SingleTexture|BigFontBigH|1|..\Texture\GUI\Font\SingleTexture\BigFontBigH\FontH.png
+SingleTexture|BigFontBigI|1|..\Texture\GUI\Font\SingleTexture\BigFontBigI\FontI.png
+SingleTexture|BigFontBigJ|1|..\Texture\GUI\Font\SingleTexture\BigFontBigJ\FontJ.png
+SingleTexture|BigFontBigK|1|..\Texture\GUI\Font\SingleTexture\BigFontBigK\FontK.png
+SingleTexture|BigFontBigL|1|..\Texture\GUI\Font\SingleTexture\BigFontBigL\FontL.png
+SingleTexture|BigFontBigM|1|..\Texture\GUI\Font\SingleTexture\BigFontBigM\FontM.png
+SingleTexture|BigFontBigN|1|..\Texture\GUI\Font\SingleTexture\BigFontBigN\FontN.png
+SingleTexture|BigFontBigO|1|..\Texture\GUI\Font\SingleTexture\BigFontBigO\FontO.png
+SingleTexture|BigFontBigP|1|..\Texture\GUI\Font\SingleTexture\BigFontBigP\FontP.png
+SingleTexture|BigFontBigQ|1|..\Texture\GUI\Font\SingleTexture\BigFontBigQ\FontQ.png
+SingleTexture|BigFontBigR|1|..\Texture\GUI\Font\SingleTexture\BigFontBigR\FontR.png
+SingleTexture|BigFontBigS|1|..\Texture\GUI\Font\SingleTexture\BigFontBigS\FontS.png
+SingleTexture|BigFontBigT|1|..\Texture\GUI\Font\SingleTexture\BigFontBigT\FontT.png
+SingleTexture|BigFontBigU|1|..\Texture\GUI\Font\SingleTexture\BigFontBigU\FontU.png
+SingleTexture|BigFontBigV|1|..\Texture\GUI\Font\SingleTexture\BigFontBigV\FontV.png
+SingleTexture|BigFontBigW|1|..\Texture\GUI\Font\SingleTexture\BigFontBigW\FontW.png
+SingleTexture|BigFontBigX|1|..\Texture\GUI\Font\SingleTexture\BigFontBigX\FontX.png
+SingleTexture|BigFontBigY|1|..\Texture\GUI\Font\SingleTexture\BigFontBigY\FontY.png
+SingleTexture|BigFontBigZ|1|..\Texture\GUI\Font\SingleTexture\BigFontBigZ\FontZ.png
+SingleTexture|BigFontQuestion|1|..\Texture\GUI\Font\SingleTexture\BigFontQuestion\Font_Question.png
+SingleTexture|BigFontSlash|1|..\Texture\GUI\Font\SingleTexture\BigFontSlash\Font_Slash.png
+SingleTexture|BigFontSmalla|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalla\Font_a.png
+SingleTexture|BigFontSmallb|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallb\Font_b.png
+SingleTexture|BigFontSmallc|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallc\Font_c.png
+SingleTexture|BigFontSmalld|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalld\Font_d.png
+SingleTexture|BigFontSmalle|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalle\Font_e.png
+SingleTexture|BigFontSmallf|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallf\Font_f.png
+SingleTexture|BigFontSmallg|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallg\Font_g.png
+SingleTexture|BigFontSmallh|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallh\Font_h.png
+SingleTexture|BigFontSmalli|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalli\Font_i.png
+SingleTexture|BigFontSmallj|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallj\Font_j.png
+SingleTexture|BigFontSmallk|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallk\Font_k.png
+SingleTexture|BigFontSmalll|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalll\Font_l.png
+SingleTexture|BigFontSmallm|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallm\Font_m.png
+SingleTexture|BigFontSmalln|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalln\Font_n.png
+SingleTexture|BigFontSmallo|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallo\Font_o.png
+SingleTexture|BigFontSmallp|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallp\Font_p.png
+SingleTexture|BigFontSmallq|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallq\Font_q.png
+SingleTexture|BigFontSmallr|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallr\Font_r.png
+SingleTexture|BigFontSmalls|1|..\Texture\GUI\Font\SingleTexture\BigFontSmalls\Font_s.png
+SingleTexture|BigFontSmallt|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallt\Font_t.png
+SingleTexture|BigFontSmallu|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallu\Font_u.png
+SingleTexture|BigFontSmallv|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallv\Font_v.png
+SingleTexture|BigFontSmallw|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallw\Font_w.png
+SingleTexture|BigFontSmallx|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallx\Font_x.png
+SingleTexture|BigFontSmally|1|..\Texture\GUI\Font\SingleTexture\BigFontSmally\Font_y.png
+SingleTexture|BigFontSmallz|1|..\Texture\GUI\Font\SingleTexture\BigFontSmallz\Font_z.png
+SingleTexture|BigFontStar|1|..\Texture\GUI\Font\SingleTexture\BigFontStar\Font_Star.png
+SingleTexture|BigFont{|1|..\Texture\GUI\Font\SingleTexture\BigFont{\Font_{.png
+SingleTexture|BigFont}|1|..\Texture\GUI\Font\SingleTexture\BigFont}\Font_}.png
+Font|SingleTexture|1|..\Texture\GUI\Font\SingleTexture\Font.png
+PlayButton|Off|1|..\Texture\GUI\PlayButton\Off\PlayBtn (%d).png
+PlayButton|On|1|..\Texture\GUI\PlayButton\On\PlayBtn (%d).png
+SingleTexture|EnemyHealthBar|1|..\Texture\GUI\SingleTexture\EnemyHealthBar\EnemyHealthBar.png
+SingleTexture|EnemyHealthBarBoss|1|..\Texture\GUI\SingleTexture\EnemyHealthBarBoss\EnemyHealthBarBoss.png
+SingleTexture|EnemyHealthBarFill|1|..\Texture\GUI\SingleTexture\EnemyHealthBarFill\EnemyHealthBarFill.png
+SingleTexture|EnemyHealthBarFillBoss|1|..\Texture\GUI\SingleTexture\EnemyHealthBarFillBoss\EnemyHealthBarFillBoss.png
+SingleTexture|HealthBar|1|..\Texture\GUI\SingleTexture\HealthBar\HealthBar.png
+SingleTexture|HealthBarFill|1|..\Texture\GUI\SingleTexture\HealthBarFill\HealthBarFill.png
+SingleTexture|LowHealthWarningGlow|1|..\Texture\GUI\SingleTexture\LowHealthWarningGlow\LowHealthWarningGlow.png
+SingleTexture|MainMenuLogo|1|..\Texture\GUI\SingleTexture\MainMenuLogo\MainMenuLogo.png
+SingleTexture|load_bar|1|..\Texture\Launch\SingleTexture\load_bar\load_bar.png
+SingleTexture|load_bg|1|..\Texture\Launch\SingleTexture\load_bg\load_bg.png
+SingleTexture|load_bg_blank|1|..\Texture\Launch\SingleTexture\load_bg_blank\load_bg_blank.png
+SingleTexture|SGLogo_04|1|..\Texture\Launch\SingleTexture\SGLogo_04\SGLogo_04.png
+SingleTexture|SideBars_01|1|..\Texture\Launch\SingleTexture\SideBars_01\SideBars_01.png
+MainMenu|MainMenuInHalf|20|..\Texture\MainMenu\MainMenuInHalf\MainMenuIn (%d).png
+MainMenu|MainMenuLoopHalf|20|..\Texture\MainMenu\MainMenuLoopHalf\MainMenuLoop (%d).png
+BloodFrame|BloodFrame|1|..\Texture\Screens\BloodFrame\BloodFrame\BloodFrame (%d).png
+Screens|RoomTransition|20|..\Texture\Screens\RoomTransition\RoomTransition00.png
+Screens|UnlockTextBG|44|..\Texture\Screens\UnlockTextBG\LocationTextBG0001.png
+LavaFire|LavaFire|40|..\Texture\Terrain\AnimatedObject\LavaFire\LavaFire\LavaFire (%d).png
+TartarusFireGlow|TartarusFireGlow|40|..\Texture\Terrain\AnimatedObject\TartarusFireGlow\TartarusFireGlow\TartarusFireGlow (%d).png
+TartarusFlame|TartarusFlame|40|..\Texture\Terrain\AnimatedObject\TartarusFlame\TartarusFlame\TartarusFlame (%d).png
+TartarusGhostHands|TartarusGhostHands|45|..\Texture\Terrain\AnimatedObject\TartarusGhostHands\TartarusGhostHands\TartarusGhostHands (%d).png
+TartarusGhostHandsMulti|TartarusGhostHandsMulti|45|..\Texture\Terrain\AnimatedObject\TartarusGhostHandsMulti\TartarusGhostHandsMulti\TartarusGhostHandsMulti (%d).png
+TartarusRiverA|TartarusRiverA|35|..\Texture\Terrain\AnimatedObject\TartarusRiverA\TartarusRiverA\TartarusRiverA (%d).png
+TartarusRiverB|TartarusRiverB|35|..\Texture\Terrain\AnimatedObject\TartarusRiverB\TartarusRiverB\TartarusRiverB (%d).png
+TartarusRiverC|TartarusRiverC|35|..\Texture\Terrain\AnimatedObject\TartarusRiverC\TartarusRiverC\TartarusRiverC (%d).png
+TartarusRiverD|TartarusRiverD|35|..\Texture\Terrain\AnimatedObject\TartarusRiverD\TartarusRiverD\TartarusRiverD (%d).png
+Ground|House|1|..\Texture\Terrain\NonAnimatedObject\Ground\House\House_PlatformCircle (%d).png
+Ground|Tartarus|61|..\Texture\Terrain\NonAnimatedObject\Ground\Tartarus\Tartarus_BlankIsoTile (%d).png
+MapObject|House|126|..\Texture\Terrain\NonAnimatedObject\MapObject\House\House_MapObj (%d).png
+MapObject|Tartarus|154|..\Texture\Terrain\NonAnimatedObject\MapObject\Tartarus\Tartarus_MapObj (%d).png
+Terrain|Option|14|..\Texture\Terrain\Option\Option (%d).png

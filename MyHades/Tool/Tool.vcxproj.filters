@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.WinApp">
+      <UniqueIdentifier>{97c2a7c0-73c7-4517-8c42-a74070b71f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.ToolDocument">
+      <UniqueIdentifier>{134b0e66-7f4a-4084-b17d-991503e15547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.FrameWnd">
+      <UniqueIdentifier>{9f432943-8ca3-49e3-8a0d-988a76cdf0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{72234b6e-e459-412b-808e-650e2d1bddf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{73c4b4d3-0a80-4440-9e40-98bc6abd596e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{52d472ed-997f-4c10-9141-09f04bafd721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{722b4e0e-c693-41b2-92f3-2bcd6bdb4f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.FormView">
+      <UniqueIdentifier>{9c8fa9f4-7bc0-47d3-817b-09e984c7f940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers">
+      <UniqueIdentifier>{b5628521-509f-490f-90ad-a3f887ef1e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\00.DeviceMgr">
+      <UniqueIdentifier>{34777e40-c0d0-46d9-8c64-e4dbcad18807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr">
+      <UniqueIdentifier>{775a92ef-c908-4ef2-be3c-b97eb7555d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture">
+      <UniqueIdentifier>{2c492ad9-cf00-40f6-87dd-7df2873ab88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{be13ec5c-5a51-4f63-9829-bcb105db5caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{ef863429-8c62-41b1-b923-13ccc07ec086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MapTool">
+      <UniqueIdentifier>{df0659b5-cc35-40d3-9900-7a96c8b1d677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.PathTool">
+      <UniqueIdentifier>{3422e95e-c510-40bf-8449-8e8b44998418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.Terrain">
+      <UniqueIdentifier>{55fd1e06-7b52-4920-993d-649a09fddab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.StaticObject">
+      <UniqueIdentifier>{9b77042a-fcba-4896-b03c-6b7d512b74d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.StaticObject\00.ImageObject">
+      <UniqueIdentifier>{1c90b367-f87f-4298-a8a4-0fa042a02f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.DirectoryMgr">
+      <UniqueIdentifier>{c988b588-7506-4b07-b369-252ea861b537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.StaticObject\00.ImageObject\00.AnimatedObject">
+      <UniqueIdentifier>{4abde008-f582-431d-aeae-9188255d3236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.StaticObject\00.ImageObject\01.NonAnimatedObject">
+      <UniqueIdentifier>{bf3bab68-32e4-46e5-88d6-3c55a370482d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\03.ObjectMgr">
+      <UniqueIdentifier>{f36108e6-5326-4925-8454-51b750911a8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.ToolDocument</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>03.View\00.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Managers\00.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Managers\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryMgr.h">
+      <Filter>98.Managers\02.DirectoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAnimatedObject.h">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject\01.NonAnimatedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject\00.AnimatedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>05.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>05.GameObject\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>05.GameObject\01.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTool.h">
+      <Filter>04.Dialog\01.PathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>98.Managers\03.ObjectMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.ToolDocument</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>03.View\00.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Managers\00.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Managers\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Managers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryMgr.cpp">
+      <Filter>98.Managers\02.DirectoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAnimatedObject.cpp">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject\01.NonAnimatedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>05.GameObject\01.StaticObject\00.ImageObject\00.AnimatedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>05.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>05.GameObject\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>05.GameObject\01.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTool.cpp">
+      <Filter>04.Dialog\01.PathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>98.Managers\03.ObjectMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+7
+Fx|FuryHellfire|52|..\Texture\Fx\FuryHellfire\FuryHellfire (%d).png
+Fx|FuryWhipWhirl|35|..\Texture\Fx\FuryWhipWhirl\FuryWhipWhirl (%d).png
+Alecto|Enemy_Alecto_Idle|240|..\Texture\GameObject\Alecto\Enemy_Alecto_Idle\Enemy_Alecto_Idle_Bink (%d).png
+Alecto|Enemy_Alecto_Lunge|608|..\Texture\GameObject\Alecto\Enemy_Alecto_Lunge\Enemy_Alecto_Lunge_Bink (%d).png
+Alecto|Enemy_Alecto_Run|176|..\Texture\GameObject\Alecto\Enemy_Alecto_Run\Enemy_Alecto_Run_Bink (%d).png
+Alecto|Enemy_Alecto_Shielded|150|..\Texture\GameObject\Alecto\Enemy_Alecto_Shielded\Enemy_Alecto_Shielded_Bink (%d).png
+Alecto|Enemy_Alecto_WhipWhirl|45|..\Texture\GameObject\Alecto\Enemy_Alecto_WhipWhirl\Enemy_Alecto_WhipWhirl_Bink (%d).png

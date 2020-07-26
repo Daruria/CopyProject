@@ -1,0 +1,6 @@
+Zagreus|ZagreusIdle|960|..\Texture\GameObject\Zagreus\ZagreusIdle\ZagreusIdle_Bink (%d).png
+Zagreus|ZagreusRun|512|..\Texture\GameObject\Zagreus\ZagreusRun\ZagreusRun_Bink (%d).png
+Zagreus|ZagreusSword|816|..\Texture\GameObject\Zagreus\ZagreusSword\ZagreusSword_Bink (%d).png
+Zagreus|ZagreusSwordDashAttack|336|..\Texture\GameObject\Zagreus\ZagreusSwordDashAttack\ZagreusSwordDashAttack_Bink (%d).png
+Zagreus|ZagreusSwordParry|496|..\Texture\GameObject\Zagreus\ZagreusSwordParry\ZagreusSwordParry_Bink (%d).png
+Zagreus|ZagreusSwordRun|512|..\Texture\GameObject\Zagreus\ZagreusSwordRun\ZagreusSwordRun_Bink (%d).png

@@ -1,0 +1,3 @@
+2
+RemBG|RemBG|60|..\Texture\Screens\RemBG\RemBG\RemBG (%d).png
+RemBG|RemBGIntro|11|..\Texture\Screens\RemBG\RemBGIntro\RemBGIntro (%d).png

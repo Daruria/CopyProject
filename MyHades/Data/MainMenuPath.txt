@@ -1,0 +1,2 @@
+MainMenu|MainMenuInHalf|40|..\Texture\MainMenu\MainMenuInHalf\MainMenuIn (%d).png
+MainMenu|MainMenuLoopHalf|40|..\Texture\MainMenu\MainMenuLoopHalf\MainMenuLoop (%d).png

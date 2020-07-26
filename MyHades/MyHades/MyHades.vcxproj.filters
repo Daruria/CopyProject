@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{1a17f894-086b-48eb-a7ed-4354e25c86ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{bd7615cc-ff0d-4c9b-bd65-d99117ab74d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers">
+      <UniqueIdentifier>{646fc465-d9b1-46f0-be08-9eba59f75bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{b4aad61d-4f1a-45ab-b1be-ef132dc6041a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject">
+      <UniqueIdentifier>{1aa54e9e-f252-4690-b469-3e4f619ce0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\01.Player">
+      <UniqueIdentifier>{32a179a3-bd5d-45e3-be05-ed50fa78f46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject">
+      <UniqueIdentifier>{a5987427-f459-42af-8934-e5fea06c901e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\00.KeyMgr">
+      <UniqueIdentifier>{5957316a-f96c-4126-9665-f31f01c74663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.DeviceMgr">
+      <UniqueIdentifier>{5c61e402-3267-4b0c-b99b-5f9fc44bfcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\99.MathMgr">
+      <UniqueIdentifier>{b1b0faab-7d24-4cb3-9863-ab6e895ed36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr">
+      <UniqueIdentifier>{e35d4b43-0161-49f2-a241-16bb903bb8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\03.SceneMgr">
+      <UniqueIdentifier>{41793240-e18b-435e-a558-82bb6da1a619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\04.ObjectMgr">
+      <UniqueIdentifier>{54d6dc6a-6490-452c-a9bc-58d06e4d9e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\05.ScrollMgr">
+      <UniqueIdentifier>{a8c499d1-e0d7-45e3-862e-1dec0d7f9d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.TimeMgr">
+      <UniqueIdentifier>{1bbac89b-72a5-4857-ae21-41324163e942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\07.FrameMgr">
+      <UniqueIdentifier>{42588527-05ca-457e-882f-ae6e11a3bb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Mouse">
+      <UniqueIdentifier>{c65b518c-974c-4536-b94c-482b2b9fa596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture">
+      <UniqueIdentifier>{36ae74bd-98e9-4e90-96bc-6ea3c0136ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{5ec3fbf8-d851-4c7f-8dd4-b68c1f6d41f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{43b5dc9e-ccde-4cc7-b42b-cd2865ec32e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Terrain">
+      <UniqueIdentifier>{2d8f3646-3e74-4919-aadd-27a67cef2e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect">
+      <UniqueIdentifier>{bcbb8bb4-0944-4f3d-9bc6-ac83734bd3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\00.ImageObject">
+      <UniqueIdentifier>{13d67b2b-93cf-4057-8133-d927a4991735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\01.MyButton">
+      <UniqueIdentifier>{5df4cb85-3778-40d5-a8a3-95665cb2197c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\08.CollisionMgr">
+      <UniqueIdentifier>{10959981-3247-4fd0-b7ac-b6ea04a0e381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{5b1293f5-b34b-4a07-ade7-72d3d5092915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\00.Intro">
+      <UniqueIdentifier>{0dd09812-6c7d-4bb6-bc20-e0eb16e5a453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\01.MainTitle">
+      <UniqueIdentifier>{76ab0e0e-477b-401e-9cf0-eb7dffa24a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage">
+      <UniqueIdentifier>{ffa7ae5a-8ec0-40fd-9efa-f62f81e5b49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\00.ImageObject\00.AnimatedObject">
+      <UniqueIdentifier>{24337d01-a56a-4f55-8561-b4b3a8f8d39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\00.ImageObject\01.NonAnimatedObject">
+      <UniqueIdentifier>{2465a72e-3c3b-4c35-bbfa-fc13b4e32a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster">
+      <UniqueIdentifier>{d337763b-83f9-4268-b74a-0834268a1b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\01.Crystal">
+      <UniqueIdentifier>{4994cf70-ebc6-438f-915d-ec455b0d629c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\01.SummonRune">
+      <UniqueIdentifier>{ac23f36b-aca8-44da-85a3-0f2a4928a96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\01.Crystal\00.PreBeam">
+      <UniqueIdentifier>{c8008972-40fc-4ca6-bc73-b240bf6b36f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\01.Crystal\01.Beam">
+      <UniqueIdentifier>{067d095a-d9c8-49c2-8d4e-457906d3c774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.HitBox">
+      <UniqueIdentifier>{5cd33ab2-2f6c-4c30-b60f-db6bd2c9ed1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.HitBox\00.NormalHitBox">
+      <UniqueIdentifier>{3bdc370e-8c9d-402c-90f5-b5fdb6b007a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.HitBox\01.DupHitBox">
+      <UniqueIdentifier>{d1a543cd-31de-495e-a40d-023df196e7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.HitBox\02.RotatedHitBox">
+      <UniqueIdentifier>{8a118369-47a8-4edd-b299-bca52101e4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.HitBox\03.LineHitBox">
+      <UniqueIdentifier>{eccfd456-f535-4149-8430-a8f400f58a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI">
+      <UniqueIdentifier>{d7eab122-5a60-4638-834a-6c27b0863caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\02.Spawner">
+      <UniqueIdentifier>{527a8e2b-528d-451c-8fab-a3cc67efa208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\02.Spawner\00.Swarmer">
+      <UniqueIdentifier>{fe953d1f-1766-41aa-a24d-d303579816e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\02.RevolutionEffect">
+      <UniqueIdentifier>{6cdcc51f-eb42-4b58-9d9f-75bc7e2026e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\03.Mine">
+      <UniqueIdentifier>{65e85cc3-6480-4fff-942b-3add3e85c61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.SubjectMgr">
+      <UniqueIdentifier>{60efecec-4a22-4ab1-b122-064eb711ae2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.SubjectMgr\00.Subject">
+      <UniqueIdentifier>{42513df7-3596-4216-85d0-9a9f1cbd49d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.SubjectMgr\01.Observer">
+      <UniqueIdentifier>{44fce5ce-1910-4e63-9305-748df6ff6a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.SubjectMgr\01.Observer\00.PlayerObserver">
+      <UniqueIdentifier>{59a9ab12-f72f-4b02-abbc-17890187f8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\00.PlayerUI">
+      <UniqueIdentifier>{e13c9df3-1862-480f-bbe7-4d5eb7f5ac66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\98.FontMgr">
+      <UniqueIdentifier>{46440601-e638-4955-af12-9a99b67900bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage\01.Stage2">
+      <UniqueIdentifier>{ced7864a-3fcf-439b-ab7b-629bcca9b316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage\02.Stage3">
+      <UniqueIdentifier>{261c4699-9802-436d-8b05-9b8517491c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect">
+      <UniqueIdentifier>{0f0e3ae9-1569-48b8-a4e3-4c4b0eb9dc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\00.Interface">
+      <UniqueIdentifier>{03522a8a-4d04-4a8e-a89c-2b9d909637e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor">
+      <UniqueIdentifier>{8f867254-ce83-4880-a9d2-ec46b2548110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\01NonAnimImp">
+      <UniqueIdentifier>{2a6531b0-ec5f-4138-aa7a-c2dacba0a350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\00.AnimImp">
+      <UniqueIdentifier>{4012b228-030c-40ac-990d-6dd87a9de4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\00.Interface\00.NormalEffect">
+      <UniqueIdentifier>{1b3afef3-9721-4a92-9c9d-8eb8493a8811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\00.Interface\01.ScreenEffect">
+      <UniqueIdentifier>{8104d756-6fea-48a9-90f7-f6a62b0da0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\02.FadeInOutImp">
+      <UniqueIdentifier>{712c6d52-ec91-45e3-89dd-c011ce5cf6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\03.AnimForwardReverseImp">
+      <UniqueIdentifier>{f1806544-ddbe-4ac9-8624-0fff5e82aeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage\00.Stage1">
+      <UniqueIdentifier>{7d23dc7d-7cc4-4ab5-9f5b-92c4d3b50e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\04.AnimReverse">
+      <UniqueIdentifier>{2fa1023d-b9ea-412d-9d36-64dc7e0e611c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\02.Door">
+      <UniqueIdentifier>{bcbea010-7c4a-4028-a9bb-7254a7115cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\05.FontImp">
+      <UniqueIdentifier>{3a4de84d-8ce0-4f3a-b765-9d3bf2c2e854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\00.Interface\02.MoveEffect">
+      <UniqueIdentifier>{aea9f579-e12d-4b87-8f75-b32076e5da7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage\03.MegaeraRoom">
+      <UniqueIdentifier>{1ccd47ab-5eb7-4929-8cd4-47e3671d8727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\02.Stage\04.House">
+      <UniqueIdentifier>{ffdda9b0-998a-4f88-a18d-3e8538ccca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\04.Alecto">
+      <UniqueIdentifier>{ba250362-64e2-4360-88d2-464f87093b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.MoveObject\02.Monster\04.Alecto\00.Boom">
+      <UniqueIdentifier>{52b2ad62-2750-4ec6-b834-912e43dc5b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\06.ConversationImp">
+      <UniqueIdentifier>{56d15b9e-62e4-4170-87e8-800572ee21a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\01.BossUI">
+      <UniqueIdentifier>{9bdae9fb-f61c-44df-bd28-e10526375603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.SubjectMgr\01.Observer\01.BossObserver">
+      <UniqueIdentifier>{8c047cc1-b12e-4939-997a-de236bf49592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\10.ThreadMgr">
+      <UniqueIdentifier>{7950914a-ec23-4fa7-ba68-6f28819d81b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\03.Boon">
+      <UniqueIdentifier>{899e6278-f306-416c-9d12-1de156518759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\03.Boon\00.BoonButton">
+      <UniqueIdentifier>{062ee8dd-e2cd-40ca-8033-17c1f2dbfa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.StaticObject\04.BoonOrb">
+      <UniqueIdentifier>{0ba052ab-c9a5-4b46-9774-b7d9846820ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\11.SoundMgr">
+      <UniqueIdentifier>{839fc4e6-d490-4fbc-8f39-1b139687f177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\02.MonsterUI">
+      <UniqueIdentifier>{d45712bf-cc9d-4f30-a405-e3c53979842d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\12.AstarMgr">
+      <UniqueIdentifier>{04b5af05-8b70-4724-a57a-dd95eeb1e022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\03.Ending">
+      <UniqueIdentifier>{e896425b-5afe-4f21-aa14-d4f65bf8381b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyHades.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98.Managers\00.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Managers\01.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveObject.h">
+      <Filter>01.GameObject\01.MoveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>01.GameObject\02.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>02.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>98.Managers\99.MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98.Managers\03.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>98.Managers\04.ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Managers\06.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>98.Managers\07.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>98.Managers\05.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>03.Scene\00.Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTitle.h">
+      <Filter>03.Scene\01.MainTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\01.MoveObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>01.GameObject\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01.GameObject\03.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01.GameObject\02.StaticObject\01.MyButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98.Managers\08.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject\00.AnimatedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAnimatedObject.h">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject\01.NonAnimatedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Crystal.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonRune.h">
+      <Filter>01.GameObject\03.Effect\01.SummonRune</Filter>
+    </ClInclude>
+    <ClInclude Include="PreBeam.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal\00.PreBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal\01.Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>01.GameObject\04.HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalHitBox.h">
+      <Filter>01.GameObject\04.HitBox\00.NormalHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DupHitBox.h">
+      <Filter>01.GameObject\04.HitBox\01.DupHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatedHitBox.h">
+      <Filter>01.GameObject\04.HitBox\02.RotatedHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="LineHitBox.h">
+      <Filter>01.GameObject\04.HitBox\03.LineHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>01.GameObject\05.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\02.Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Swarmer.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\02.Spawner\00.Swarmer</Filter>
+    </ClInclude>
+    <ClInclude Include="RevolutionEffect.h">
+      <Filter>01.GameObject\03.Effect\02.RevolutionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\03.Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectMgr.h">
+      <Filter>98.Managers\09.SubjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>98.Managers\09.SubjectMgr\00.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObserver.h">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer\00.PlayerObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>01.GameObject\05.UI\00.PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontMgr.h">
+      <Filter>98.Managers\98.FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>03.Scene\02.Stage\01.Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>03.Scene\02.Stage\02.Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaeraRoom.h">
+      <Filter>03.Scene\02.Stage\03.MegaeraRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeEffect.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\00.AnimImp</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAnimImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\01NonAnimImp</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffect.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\01.ScreenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInOutImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\02.FadeInOutImp</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimForwardReverseImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\03.AnimForwardReverseImp</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>03.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimReverse.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\04.AnimReverse</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>03.Scene\02.Stage\00.Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>01.GameObject\02.StaticObject\02.Door</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEffect.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\00.NormalEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FontImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\05.FontImp</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveEffect.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\02.MoveEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>03.Scene\02.Stage\04.House</Filter>
+    </ClInclude>
+    <ClInclude Include="Alecto.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\04.Alecto</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\04.Alecto\00.Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversationImp.h">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\06.ConversationImp</Filter>
+    </ClInclude>
+    <ClInclude Include="BossUI.h">
+      <Filter>01.GameObject\05.UI\01.BossUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossObserver.h">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer\01.BossObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMgr.h">
+      <Filter>98.Managers\10.ThreadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Boon.h">
+      <Filter>01.GameObject\02.StaticObject\03.Boon</Filter>
+    </ClInclude>
+    <ClInclude Include="BoonButton.h">
+      <Filter>01.GameObject\02.StaticObject\03.Boon\00.BoonButton</Filter>
+    </ClInclude>
+    <ClInclude Include="BoonOrb.h">
+      <Filter>01.GameObject\02.StaticObject\04.BoonOrb</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98.Managers\11.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterUI.h">
+      <Filter>01.GameObject\05.UI\02.MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarMgr.h">
+      <Filter>98.Managers\12.AstarMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>03.Scene\03.Ending</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyHades.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98.Managers\00.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Managers\01.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveObject.cpp">
+      <Filter>01.GameObject\01.MoveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>01.GameObject\02.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>98.Managers\99.MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>02.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98.Managers\03.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>98.Managers\04.ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>98.Managers\05.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Managers\06.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>98.Managers\07.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>03.Scene\00.Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTitle.cpp">
+      <Filter>03.Scene\01.MainTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\01.MoveObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>01.GameObject\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01.GameObject\03.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01.GameObject\02.StaticObject\01.MyButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98.Managers\08.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject\00.AnimatedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAnimatedObject.cpp">
+      <Filter>01.GameObject\02.StaticObject\00.ImageObject\01.NonAnimatedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Crystal.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonRune.cpp">
+      <Filter>01.GameObject\03.Effect\01.SummonRune</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBeam.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal\00.PreBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\01.Crystal\01.Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox.cpp">
+      <Filter>01.GameObject\04.HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalHitBox.cpp">
+      <Filter>01.GameObject\04.HitBox\00.NormalHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DupHitBox.cpp">
+      <Filter>01.GameObject\04.HitBox\01.DupHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatedHitBox.cpp">
+      <Filter>01.GameObject\04.HitBox\02.RotatedHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="LineHitBox.cpp">
+      <Filter>01.GameObject\04.HitBox\03.LineHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>01.GameObject\05.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\02.Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Swarmer.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\02.Spawner\00.Swarmer</Filter>
+    </ClCompile>
+    <ClCompile Include="RevolutionEffect.cpp">
+      <Filter>01.GameObject\03.Effect\02.RevolutionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\03.Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="SubjectMgr.cpp">
+      <Filter>98.Managers\09.SubjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>98.Managers\09.SubjectMgr\00.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObserver.cpp">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer\00.PlayerObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>01.GameObject\05.UI\00.PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontMgr.cpp">
+      <Filter>98.Managers\98.FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>03.Scene\02.Stage\01.Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>03.Scene\02.Stage\02.Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaeraRoom.cpp">
+      <Filter>03.Scene\02.Stage\03.MegaeraRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="BridgeEffect.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\00.AnimImp</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAnimImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\01NonAnimImp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffect.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\01.ScreenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeInOutImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\02.FadeInOutImp</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimForwardReverseImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\03.AnimForwardReverseImp</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>03.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimReverse.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\04.AnimReverse</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>03.Scene\02.Stage\00.Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>01.GameObject\02.StaticObject\02.Door</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEffect.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\00.NormalEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FontImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\05.FontImp</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveEffect.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\00.Interface\02.MoveEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>03.Scene\02.Stage\04.House</Filter>
+    </ClCompile>
+    <ClCompile Include="Alecto.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\04.Alecto</Filter>
+    </ClCompile>
+    <ClCompile Include="Boom.cpp">
+      <Filter>01.GameObject\01.MoveObject\02.Monster\04.Alecto\00.Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversationImp.cpp">
+      <Filter>01.GameObject\03.Effect\99.BridgeEffect\01.Implemetor\06.ConversationImp</Filter>
+    </ClCompile>
+    <ClCompile Include="BossUI.cpp">
+      <Filter>01.GameObject\05.UI\01.BossUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BossObserver.cpp">
+      <Filter>98.Managers\09.SubjectMgr\01.Observer\01.BossObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMgr.cpp">
+      <Filter>98.Managers\10.ThreadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Boon.cpp">
+      <Filter>01.GameObject\02.StaticObject\03.Boon</Filter>
+    </ClCompile>
+    <ClCompile Include="BoonButton.cpp">
+      <Filter>01.GameObject\02.StaticObject\03.Boon\00.BoonButton</Filter>
+    </ClCompile>
+    <ClCompile Include="BoonOrb.cpp">
+      <Filter>01.GameObject\02.StaticObject\04.BoonOrb</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98.Managers\11.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterUI.cpp">
+      <Filter>01.GameObject\05.UI\02.MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarMgr.cpp">
+      <Filter>98.Managers\12.AstarMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>03.Scene\03.Ending</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MyHades.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyHades.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

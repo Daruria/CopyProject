@@ -1,0 +1,8 @@
+LavaFire|LavaFire|40|..\Texture\Terrain\AnimatedObject\LavaFire\LavaFire\LavaFire (%d).png
+TartarusFireGlow|TartarusFireGlow|40|..\Texture\Terrain\AnimatedObject\TartarusFireGlow\TartarusFireGlow\TartarusFireGlow (%d).png
+TartarusFlame|TartarusFlame|40|..\Texture\Terrain\AnimatedObject\TartarusFlame\TartarusFlame\TartarusFlame (%d).png
+Ground|House|3|..\Texture\Terrain\NonAnimatedObject\Ground\House\House_PlatformCircle (%d).png
+Ground|Tartarus|207|..\Texture\Terrain\NonAnimatedObject\Ground\Tartarus\Tartarus_BlankIsoTile (%d).png
+MapObject|House|274|..\Texture\Terrain\NonAnimatedObject\MapObject\House\House_MapObj (%d).png
+MapObject|Tartarus|563|..\Texture\Terrain\NonAnimatedObject\MapObject\Tartarus\Tartarus_MapObj (%d).png
+Terrain|Option|2|..\Texture\Terrain\Option\Option (%d).png
